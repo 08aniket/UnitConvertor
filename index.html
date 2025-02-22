@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Unit Converter</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Advanced Unit Converter</h1>
+        <div class="converter">
+            <input type="number" id="inputValue" placeholder="Enter value" />
+            <select id="inputUnit">
+                <option value="inches">Inches</option>
+                <option value="centimeters">Centimeters</option>
+                <option value="kilograms">Kilograms</option>
+                <option value="pounds">Pounds</option>
+                <option value="meters">Meters</option>
+                <option value="feet">Feet</option>
+                <option value="liters">Liters</option>
+                <option value="gallons">Gallons</option>
+            </select>
+            <span class="arrow">➡️</span>
+            <select id="outputUnit">
+                <option value="centimeters">Centimeters</option>
+                <option value="inches">Inches</option>
+                <option value="pounds">Pounds</option>
+                <option value="kilograms">Kilograms</option>
+                <option value="meters">Meters</option>
+                <option value="feet">Feet</option>
+                <option value="liters">Liters</option>
+                <option value="gallons">Gallons</option>
+            </select>
+            <button id="convertBtn">Convert</button>
+        </div>
+        <h2 id="result"></h2>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
